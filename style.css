@@ -1,0 +1,208 @@
+html {
+    font-size: 15px;
+    max-width: 80%;
+    margin: auto;
+    border: 1px solid black;
+}
+
+body {
+    font-family: ariel;
+    margin: 0;
+    background: #eee;
+    
+}
+
+#main-container{
+    display: flex;
+    margin-right: auto;
+
+}
+
+/*
+ Light slate blue (background): hsl(252, 100%, 67%)
+- Light royal blue (background): hsl(241, 81%, 54%)
+
+- Violet blue (circle): hsla(256, 72%, 46%, 1)
+- Persian blue (circle): hsla(241, 72%, 46%, 0)
+
+*/
+
+#wrapper {
+    background-color:  hsl(252, 71%, 55%);
+    padding: 10px;
+    margin: 30px;
+    border-style: solid ;
+    border-radius: 28px 0px 0px 28px ; 
+    border-color:hsl(241, 81%, 54%);
+    height: 350px;
+    width: 200px;
+    text-align: center;
+   
+}
+
+#wrapper2{
+    background-color: rgb(254, 251, 255);
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: -32px;
+    padding-right: 50px;
+    border-style: solid ;
+    border-radius: 0px 28px 28px 0px ; 
+    box-shadow: 5px 8px rgb(238, 230, 244);
+    border-color: rgb(245, 243, 246);
+    height: 350px;
+    width: 200px;
+    text-align: center;
+}
+
+
+.result{
+    font-size: 16px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(211, 205, 196);
+}
+
+.score{
+    background-image:linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    height: 100px;
+    width: 100px;
+    border-style: solid ;
+    border-radius: 50%;
+    border-color:hsla(241, 72%, 46%, 0);
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    margin: 40px;
+
+}
+
+#grade{
+    text-align: center;
+    
+    
+}
+
+
+time.scoredata{
+    font-size: 50px;
+    font-weight: bold;
+    display: block;
+    color: whitesmoke;
+    padding: 10px;
+}
+
+
+p.score{
+    font-size: 12px;
+    color: rgb(223, 219, 212);
+}
+
+h2.remark{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+    color: white;
+}
+
+p.sum{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 14px;
+    color: rgb(211, 205, 196);;
+}
+
+h3{
+    font-size: 22px;
+    font-weight: bold;
+    text-align: left;
+    margin: 5px;
+    padding-left: 20px;
+
+}
+
+p.details{
+    border: 1px solid rgb(201, 201, 201);
+    border-radius: 7px;
+    background: hsl(0, 100%, 98%) ;
+    font-size: 9px;
+    display: block;
+    padding: 10px;
+    margin: 15px;
+    height: 25px;
+    width: 90%;
+}
+
+p.details1{
+    border: 1px solid rgb(238, 238, 238);
+    border-radius: 7px;
+    background: hsl(40, 100%, 98%);
+    font-size: 9px;
+    display: block;
+    padding: 10px;
+    margin: 15px;
+    height: 25px;
+    width: 90%;
+}
+
+
+p.details2{
+    border: 1px solid rgb(233, 232, 232);
+    border-radius: 7px;
+    background:hsl(166, 100%, 96%) ;
+    font-size: 9px;
+    display: block;
+    padding: 10px;
+    margin: 15px;
+    height: 25px;
+    width: 90%;
+}
+
+p.details3{
+    border: 1px solid rgb(197, 196, 196);
+    border-radius: 7px;
+    background: hsl(230, 50%, 95%);
+    font-size: 9px;
+    display: block;
+    padding: 10px;
+    margin: 15px;
+    height: 25px;
+    width: 90%;
+}
+
+span.sumdata{
+    font-size: 15px;
+    margin-right: 50px;
+    padding: 5px;
+    color: rgb(12, 4, 4);
+
+}
+
+strong{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+
+
+button {
+    width: 90%;
+    height: 40px;
+    padding: 15px;
+    align-items: center;
+    margin-left: 23px;
+    background: rgb(71, 84, 103);
+    border: 1px solid;
+    border-radius: 50px;
+    color: white;
+}
+
+label{
+    font-size: 13px ;
+    align-self: center;
+    padding-top: 20px;
+}
+
+
+button:hover{
+    background-color: hsl(252, 71%, 55%);
+    border: 1px solid rgb(249, 134, 207);
+    
+}
+
